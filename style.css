@@ -1,0 +1,75 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #ff6347; /* Tomate */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo das seções */
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #ff6347; /* Tomate */
+}
+
+/* Estilo do cardápio */
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff6347; /* Tomate */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
